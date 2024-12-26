@@ -1,0 +1,107 @@
+.story {
+  padding: 4rem 2rem;
+  background-color: #d9eaff; /* Matches light blue background */
+  text-align: center;
+}
+
+.story-heading {
+  margin-bottom: 3rem;
+}
+
+.story-heading h2 {
+  font-size: 4rem; /* Larger font size for prominence */
+  font-weight: bold;
+  text-transform: uppercase;
+  -webkit-text-stroke: 2px #0056b3; /* Blue stroke */
+  color: white; /* White fill */
+  line-height: 1.2;
+}
+
+.story-heading .tagline {
+  font-size: 1.7rem;
+  color: #333;
+  margin-top: 1rem;
+  font-weight: 400;
+}
+
+.story-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.text-section {
+  flex: 1.5;
+  text-align: left;
+}
+
+.text-section p {
+  font-size: 1.3rem;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.image-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  background-color: #4da8f5; /* Matches circular background */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.background-pattern {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 20%, transparent 80%);
+  z-index: 1;
+  border-radius: 50%;
+}
+
+.mascot-image {
+  width: 85%;
+  height: auto;
+  object-fit: cover; /* Ensures proper scaling */
+  border-radius: 50%;
+  z-index: 2;
+}
+
+@media (max-width: 768px) {
+  .story-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .text-section {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .image-container {
+    width: 300px;
+    height: 300px;
+  }
+
+  .background-pattern {
+    width: 320px;
+    height: 320px;
+  }
+}

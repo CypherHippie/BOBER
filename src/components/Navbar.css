@@ -1,0 +1,91 @@
+html, body {
+  background: linear-gradient(180deg, #1e88e5 0%, #1e88e5 100%); /* Matches the navbar's gradient */
+  margin: 0; /* Remove all margins */
+  padding: 0; /* Remove all padding */
+  height: 100%; /* Ensure the background spans the entire height */
+  width: 100%; /* Ensure it spans the entire width */
+  overflow-x: hidden; /* Prevent horizontal scrolling if an element overflows */
+}
+
+.navbar {
+  background: linear-gradient(180deg, #4da8f5 0%, #226baf 100%); /* Gradient similar to the navbar */
+  border-radius: 25px; /* Rounded corners for navbar */
+  margin: 20px auto; /* Centered in the middle of the page */
+  max-width: 90%; /* Limits the width */
+  padding: 15px 25px;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Add shadow to lift navbar visually */
+  border: 3px solid black; /* Consistent black border */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; /* Circular logo */
+  border: 2px solid black; /* Border around logo */
+  margin-right: 10px;
+}
+
+.brand-name {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: black;
+}
+
+.nav-center {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: white; /* Text turns white when hovered */
+}
+
+.nav-right {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icon {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15%; /* Slightly rounded square */
+  border: 2px solid black; /* Consistent border */
+  background-color: white; /* Background for icons */
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.1); /* Enlarge icon slightly on hover */
+  background-color: #d3d3d3; /* Slightly gray hover color */
+}
+
+.social-icon img {
+  width: 20px;
+  height: 20px;
+}

@@ -1,0 +1,170 @@
+.hero {
+  background-color: #1e88e5; /* Background matches the image */
+  min-height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 20px; /* Adds padding around the content */
+  overflow: hidden; /* Ensures no overflow issues */
+  position: relative;
+}
+
+.hero-content {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between; /* Space between text and beaver */
+  align-items: center;
+  margin: auto; /* Centers the content */
+  height: calc(100vh - 120px); /* Adjusts for the ticker's height */
+}
+
+.hero-text {
+  flex: 1;
+  z-index: 2;
+  max-width: 600px; /* Keeps text within a defined width */
+  padding-right: 20px; /* Adds spacing between text and beaver */
+}
+
+.hero-text h1 {
+  font-size: 2rem;
+  margin: 0;
+  font-weight: 400;
+  color: white; /* White for the text */
+}
+
+.hero-text h2 {
+  font-size: 4.5rem;
+  font-weight: bold;
+  color: #ffcc00; /* Matches the yellow text color in the image */
+  margin: 10px 0 20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Adds depth to the text */
+}
+
+.hero-text p {
+  font-size: 1.5rem;
+  margin: 20px 0;
+  color: white;
+}
+
+.contract-container {
+  margin-top: 20px;
+}
+
+.contract-container span {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.address-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: white;
+  border-radius: 10px;
+  padding: 10px 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.address-box input {
+  flex: 1;
+  border: none;
+  background: none;
+  font-family: monospace;
+  font-size: 1rem;
+  color: black;
+}
+
+.address-box button {
+  background: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.address-box button:hover {
+  background: #1565c0;
+}
+
+.copy-success {
+  margin-top: 10px;
+  color: #4caf50;
+  font-size: 1rem;
+}
+
+.beaver-container {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  width: 900px; /* Matches the size of the beaver in the image */
+  height: auto;
+}
+
+.beaver-container img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.ticker-wrap {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2); /* Matches the ticker background in the image */
+  height: 60px; /* Adjusted height for better alignment */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.ticker {
+  display: flex;
+  white-space: nowrap;
+  animation: ticker-scroll 20s linear infinite; /* Smooth scrolling animation */
+}
+
+.ticker span {
+  font-size: 1.5rem;
+  color: #64b5f6; /* Light blue text matches the ticker color */
+  font-weight: bold;
+  padding-right: 30px;
+}
+
+@keyframes ticker-scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+  }
+
+  .hero-text {
+    padding-right: 0;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .beaver-container {
+    width: 250px; /* Scales the beaver image for mobile */
+  }
+
+  .ticker span {
+    font-size: 1.2rem;
+  }
+}
