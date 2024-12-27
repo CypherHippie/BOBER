@@ -1,20 +1,20 @@
 html, body {
-  background: linear-gradient(180deg, #1e88e5 0%, #1e88e5 100%); /* Matches the navbar's gradient */
-  margin: 0; /* Remove all margins */
-  padding: 0; /* Remove all padding */
-  height: 100%; /* Ensure the background spans the entire height */
-  width: 100%; /* Ensure it spans the entire width */
-  overflow-x: hidden; /* Prevent horizontal scrolling if an element overflows */
+  background: linear-gradient(180deg, #1e88e5 0%, #1e88e5 100%); 
+  margin: 0; 
+  padding: 0; 
+  height: 100%; 
+  width: 100%; 
+  overflow-x: hidden; 
 }
 
 .navbar {
-  background: linear-gradient(180deg, #4da8f5 0%, #226baf 100%); /* Gradient similar to the navbar */
-  border-radius: 25px; /* Rounded corners for navbar */
-  margin: 20px auto; /* Centered in the middle of the page */
-  max-width: 90%; /* Limits the width */
+  background: linear-gradient(180deg, #4da8f5 0%, #226baf 100%); 
+  border-radius: 25px; 
+  margin: 20px auto; 
+  max-width: 90%; 
   padding: 15px 25px;
-  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Add shadow to lift navbar visually */
-  border: 3px solid black; /* Consistent black border */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); 
+  border: 3px solid black; 
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,8 +35,8 @@ html, body {
 .logo {
   width: 50px;
   height: 50px;
-  border-radius: 50%; /* Circular logo */
-  border: 2px solid black; /* Border around logo */
+  border-radius: 50%; 
+  border: 2px solid black; 
   margin-right: 10px;
 }
 
@@ -60,7 +60,7 @@ html, body {
 }
 
 .nav-link:hover {
-  color: white; /* Text turns white when hovered */
+  color: white; 
 }
 
 .nav-right {
@@ -74,15 +74,15 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 15%; /* Slightly rounded square */
-  border: 2px solid black; /* Consistent border */
-  background-color: white; /* Background for icons */
+  border-radius: 15%; 
+  border: 2px solid black; 
+  background-color: white; 
   transition: transform 0.2s ease, background-color 0.2s ease;
 }
 
 .social-icon:hover {
-  transform: scale(1.1); /* Enlarge icon slightly on hover */
-  background-color: #d3d3d3; /* Slightly gray hover color */
+  transform: scale(1.1); 
+  background-color: #d3d3d3; 
 }
 
 .social-icon img {

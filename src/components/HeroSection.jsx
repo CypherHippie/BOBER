@@ -21,7 +21,7 @@ const HeroSection = () => {
       <div className="hero-content">
         <div className="hero-text">
           <h1>Welcome to</h1>
-          <h2>Bober Kurwa $BOBER</h2>
+          <h2>Bober Kurwa</h2>
           <p>The Memecoin That's Just as Exciting as Spotting a Beaver!</p>
           <div className="contract-container">
             <span>Contact Address</span>

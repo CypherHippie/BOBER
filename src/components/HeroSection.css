@@ -1,12 +1,12 @@
 .hero {
-  background-color: #1e88e5; /* Background matches the image */
-  min-height: 100vh; /* Full viewport height */
+  background-color: #1e88e5; 
+  min-height: 100vh; 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 60px 20px; /* Adds padding around the content */
-  overflow: hidden; /* Ensures no overflow issues */
+  padding: 60px 20px; 
+  overflow: hidden; 
   position: relative;
 }
 
@@ -14,32 +14,32 @@
   max-width: 1200px;
   width: 100%;
   display: flex;
-  justify-content: space-between; /* Space between text and beaver */
+  justify-content: space-between; 
   align-items: center;
-  margin: auto; /* Centers the content */
-  height: calc(100vh - 120px); /* Adjusts for the ticker's height */
+  margin: auto; 
+  height: calc(100vh - 120px); 
 }
 
 .hero-text {
   flex: 1;
   z-index: 2;
-  max-width: 600px; /* Keeps text within a defined width */
-  padding-right: 20px; /* Adds spacing between text and beaver */
+  max-width: 600px; 
+  padding-right: 20px; 
 }
 
 .hero-text h1 {
   font-size: 2rem;
   margin: 0;
   font-weight: 400;
-  color: white; /* White for the text */
+  color: white; 
 }
 
 .hero-text h2 {
   font-size: 4.5rem;
   font-weight: bold;
-  color: #ffcc00; /* Matches the yellow text color in the image */
+  color: #ffcc00; 
   margin: 10px 0 20px;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Adds depth to the text */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
 }
 
 .hero-text p {
@@ -106,7 +106,7 @@
   bottom: 0;
   right: 0;
   z-index: 1;
-  width: 900px; /* Matches the size of the beaver in the image */
+  width: 900px; 
   height: auto;
 }
 
@@ -118,8 +118,8 @@
 
 .ticker-wrap {
   width: 100%;
-  background: rgba(0, 0, 0, 0.2); /* Matches the ticker background in the image */
-  height: 60px; /* Adjusted height for better alignment */
+  background: rgba(0, 0, 0, 0.2); 
+  height: 60px; 
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -128,12 +128,12 @@
 .ticker {
   display: flex;
   white-space: nowrap;
-  animation: ticker-scroll 20s linear infinite; /* Smooth scrolling animation */
+  animation: ticker-scroll 20s linear infinite; 
 }
 
 .ticker span {
   font-size: 1.5rem;
-  color: #64b5f6; /* Light blue text matches the ticker color */
+  color: #64b5f6; 
   font-weight: bold;
   padding-right: 30px;
 }
@@ -161,7 +161,7 @@
   }
 
   .beaver-container {
-    width: 250px; /* Scales the beaver image for mobile */
+    width: 250px; 
   }
 
   .ticker span {

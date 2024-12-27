@@ -1,20 +1,20 @@
 .nft-collection {
   padding: 4rem 2rem;
   text-align: center;
-  background-color: #d9eaff; /* Matches light blue background */
+  background-color: #d9eaff; 
 }
 
 .nft-collection h2 {
   font-size: 3.5rem;
   font-weight: bold;
   text-transform: uppercase;
-  -webkit-text-stroke: 2px #0056b3; /* Blue outline */
-  color: white; /* White fill */
+  -webkit-text-stroke: 2px #0056b3; 
+  color: white; 
   margin-bottom: 2rem;
 }
 
 .nft-background {
-  background-color: #4da8f5; /* Blue background for the grid */
+  background-color: #4da8f5; 
   border-radius: 20px;
   padding: 2rem 2rem 3rem;
   display: flex;
@@ -25,18 +25,18 @@
 
 .nft-cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Three columns */
-  gap: 2rem; /* Spacing between cards */
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 2rem; 
   justify-content: center;
   margin-bottom: 2rem;
 }
 
 .nft-item {
-  background: #ffffff; /* White card background */
+  background: #ffffff; 
   border-radius: 15px;
   padding: 1rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  border: 3px solid #0056b3; /* Blue border */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  border: 3px solid #0056b3; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,12 +46,12 @@
 .nft-item img {
   width: 100%;
   height: auto;
-  border-radius: 10px; /* Slight rounding for images */
+  border-radius: 10px; 
 }
 
 .coming-soon {
   font-size: 1.5rem;
-  color: #ffcc00; /* Golden text */
+  color: #ffcc00; 
   font-weight: bold;
   text-transform: uppercase;
   margin-top: 1rem;
@@ -59,7 +59,7 @@
 
 @media (max-width: 768px) {
   .nft-cards {
-    grid-template-columns: 1fr; /* Single column on smaller screens */
+    grid-template-columns: 1fr; 
     gap: 1.5rem;
   }
 
