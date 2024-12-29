@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9fe1309f.css",
+    "main.js": "/static/js/main.356c5a3a.js",
+    "static/js/488.cd2d6313.chunk.js": "/static/js/488.cd2d6313.chunk.js",
+    "static/media/bober.circular.png": "/static/media/bober.circular.9406e74015acce5a5b08.png",
+    "static/media/bober.png": "/static/media/bober.08c312a6748e77659f91.png",
+    "static/media/bober.inversed.png": "/static/media/bober.inversed.b8e2e185428d2802e099.png",
+    "static/media/mascot.jpg": "/static/media/mascot.611bb1f769117fdb5edf.jpg",
+    "static/media/nft2.jpg": "/static/media/nft2.a9e784060715e3018ac8.jpg",
+    "static/media/nft3.jpg": "/static/media/nft3.bc3ef6a1425f48723d18.jpg",
+    "static/media/nft1.jpg": "/static/media/nft1.77c645e704ccc65fc80c.jpg",
+    "static/media/telegram.png": "/static/media/telegram.24d3d56f394ddfb69814.png",
+    "static/media/x.png": "/static/media/x.00f03278597240e6b7cd.png",
+    "static/media/logo.svg": "/static/media/logo.1a0d5fd621ee6df8ba49730518aea1b4.svg",
+    "index.html": "/index.html",
+    "main.9fe1309f.css.map": "/static/css/main.9fe1309f.css.map",
+    "main.356c5a3a.js.map": "/static/js/main.356c5a3a.js.map",
+    "488.cd2d6313.chunk.js.map": "/static/js/488.cd2d6313.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9fe1309f.css",
+    "static/js/main.356c5a3a.js"
+  ]
+}
